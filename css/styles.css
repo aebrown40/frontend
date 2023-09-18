@@ -1,0 +1,92 @@
+/* styles.css */
+
+/* Background Styles */
+body {
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #000000;
+}
+
+/* Container Styles */
+.container {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+/* Logo Styles */
+.logo {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+}
+
+.logo h1 {
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-left: 10px; /* Add spacing between the img and h1 */
+    text-align: left;
+}
+
+/* Input Field Styles */
+.input-container {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-container label {
+            color: #FFFFFF;
+        }
+}
+
+/* Forgot Password Link Styles */
+.forgot-password {
+    text-align: center;
+    text-decoration: underline;
+    color: #FFFFFF;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Buttons Styles */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-align: left;
+}
+.buttons button {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: auto;
+}
+
+.signin-button {
+    background-color: #26eb33;
+    color: #000000;
+}
+
+.new-account-button {
+    background-color: #FFFFFF;
+    color: #000000;
+}
